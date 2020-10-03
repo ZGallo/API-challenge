@@ -1,1 +1,3 @@
-# API-challenge
+This repository contains two codes: Weather and Vacation. 
+The Weather code produces random cities, then makes API calls to the weather API and stores different data (i.e. latitude, long., temperature, etc.) from each city. The data is then divided into southern and nothern hemispheres and plotted with linear regressions producing exports (.png) for each plot and initial cities dataframe.
+The second part, Vacation code, builds on the csv export from the Weather code, and based on a series of weather conditions that I have determined, API calls to Google places are produced to build a heat meap with gmaps highlighting map locations and hotels of my predetermined weather conditions. 
